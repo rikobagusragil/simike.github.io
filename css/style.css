@@ -1,0 +1,19 @@
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-menu {display: block;}
+
+.btn {
+    padding: 8px 20px !important;
+    font-size: 11px !important;
+    border-radius: 18px !important;
+}
+html {
+  scroll-behavior: smooth !important;
+}
