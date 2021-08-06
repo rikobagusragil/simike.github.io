@@ -53,7 +53,7 @@
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="loginform/map_index.html">Map</a>
+              <a class="nav-link" href="#map">Map</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Data</a>
@@ -111,6 +111,33 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+
+    <!-- Maps -->
+    <style type="text/css">
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+
+      #mapp {
+        display: block;
+        position: absolute;
+        height: auto;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin-top: 0px; /* adjust top margin to your header height */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map">
+      <iframe width="100%" height="100%" src="https://machintos.maps.arcgis.com/apps/webappviewer/index.html?id=f5e2c8b42f604872abbfb050351326cf" frameborder="0" scrolling="no"></iframe>
+    </div>
+    <!-- Akhir Maps -->
 
     <!-- Footer -->
     <footer class="bg-dark text-white">
